@@ -11,7 +11,7 @@
 3. 针对所有的元素重复以上的步骤，除了最后一个。
 4. 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
 
-### [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+### [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 
 1. 设置头指针，设置游标（curry），指向头指针。
 2. 设置光标，p,q分别指向两个链表，进行遍历
