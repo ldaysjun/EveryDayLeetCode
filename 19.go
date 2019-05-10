@@ -9,6 +9,7 @@ type ListNode struct {
 }
 
 func main() {
+
 	node1 := new(ListNode)
 	node1.Val = 1
 
@@ -91,7 +92,7 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 		i ++
 	}
 
-	if q == head {
+	if q == head && i == n{
 		return head.Next
 	}
 	q.Next = q.Next.Next
