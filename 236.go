@@ -1,10 +1,13 @@
 package main
 
+import "fmt"
+
 type TreeNode struct {
 	Val int
 	Left *TreeNode
 	Right *TreeNode
 }
+
 
 
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
@@ -25,6 +28,8 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	}else if right != nil {
 		return right
 	}
+	fmt.Println()
 
 	return nil
 }
+
